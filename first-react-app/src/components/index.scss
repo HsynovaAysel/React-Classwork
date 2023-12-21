@@ -1,0 +1,16 @@
+button{
+    transition: all 0.8s;
+    color: white;
+    background-color: blueviolet;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid blueviolet;
+    outline: none;
+    font-size: 1rem;
+    &:hover{
+        color: blueviolet;
+        border: 1px solid blueviolet;
+        background-color: transparent;
+    }
+}

@@ -1,0 +1,40 @@
+header {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      h1 {
+        color: blueviolet;
+      }
+      .icon {
+        color: blueviolet;
+        font-size: 2rem;
+      }
+    }
+    nav {
+      ul {
+        display: flex;
+        gap: 30px;
+        li {
+          padding: 15px;
+          transition: all 0.8s;
+          border-radius: 20px;
+          a {
+            color: black;
+          }
+          &:hover {
+            background-color: blueviolet;
+            a{
+                color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
