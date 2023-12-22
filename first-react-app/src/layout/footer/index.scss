@@ -1,0 +1,25 @@
+footer {
+  background-color: rgb(61, 8, 110);
+  .footer {
+    .top {
+      display: flex;
+      justify-content: space-around;
+      .icon {
+        font-size: 20px;
+        color: white;
+      }
+      span {
+        font-size: 20px;
+        color: white;
+      }
+    }
+    .bottom{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+        .icon{
+            color: white;
+        }
+    }
+  }
+}
