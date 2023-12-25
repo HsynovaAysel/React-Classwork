@@ -1,0 +1,22 @@
+#counter{
+    .counter{
+        text-align: center;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .count{
+            margin: 20px 0;
+            h3{
+                margin: 20px 0;
+            }
+        }
+    }
+}
+button{
+   border: none;
+   padding: 10px ;
+   border-radius: 5px;
+   font-size: 18px;
+}
