@@ -1,0 +1,29 @@
+header{
+    background-color: teal;
+    padding: 20px 0;
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h1{
+            color: white;
+        }
+        nav{
+            ul{
+                display: flex;
+                gap: 2rem;
+                li {
+                    a {
+                      color: #fff;
+                      font-size: 1.2rem;
+                      text-decoration: none;
+                      &.active {
+                        text-decoration: underline;
+                        color: red;
+                      }
+                    }
+                  }
+            }
+        }
+    }
+}
